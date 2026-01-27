@@ -4,22 +4,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selectors Class-17</title>
+    <title>Css Selectors Class-17</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        h1{
+        /* div Selector */
+        div{
+            color: red;
+            background-color: rgb(207, 109, 109);
+            font-size: 27px;
+        }
+        /* Class selector */
+        .blue{
             color: blue;
-            background: palevioletred;
+            background: rgb(129, 129, 228);
+            font-size: 27px;
+        }
+        /* Id Selector */
+        #name{
+            color: yellow;
+            background: rgb(173, 173, 108);
+            font-size: 27px;
+        }
+        /* Child Selector */
+       div > p{
+            color: green;
+            background: rgb(138, 219, 138);
+            font-size: 27;
+        }
+        /* Descendent Selector */
+        div p{
+            color: orange;
+            background: rgb(231, 195, 129);
+            font-size: 27;
+        }
+        /* Univerdsal Selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*  Pseudo Sellector */
+        a:visited{
+            color: rgb(131, 10, 131);
+          
+            font-size: 27px;
+        }
+        a:link{
+            color: aqua;
+        }
+        a:active {
+            background-color: rgb(14, 44, 44);
+        }
+        a:hover{
+            background: violet;
+        }
+       p:first-child{
+          background-color: salmon;
         }
     </style>
 </head>
 <body>
-    <!-- Inline css -->
-    <h1 style="color: red; background: skyblue;">My name is Moriom Islam Nela</h1>
-    <h1>My name is Moriom Islam Nela</h1>
-    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe nulla? Autem commodi, nobis, dicta quisquam cupiditate earum et, doloremque animi id veniam error obcaecati minima eaque! Molestiae, veritatis et.</p>
-    
+    <main class="one">
+        <p>My name is Moriom Islam Nela</p>
+        <p>My name is Moriom Islam Nela</p>
+    </main>
+    <div>
+        I am Moriom Islam Nela
+    </div>
+    <div class="blue">
+        I am Moriom Islam Nela
+       <article>
+         <p>My name is Moriom Islam Nela</p>
+       </article>
+    </div>
+    <div id="name">
+        I am Moriom Islam Nela
+    </div>
+    <div>
+        <p>My name is Moriom Islam Nela</p>
+    </div>
+    <a href="https://www.google.com">Go to google</a>
+    <a href="https://www.facebook2.com">Go to facebook</a>
 
+    
     
     <script src="script.js"></script>
 </body>
