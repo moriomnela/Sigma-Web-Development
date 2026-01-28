@@ -1,0 +1,18 @@
+div{
+    
+    h1.yellow{
+        color: yellow;
+    }
+    h1.green{
+        color: green !important;
+    }
+    h1.red{
+        color: red;
+    }
+}
+
+#demo {color: blue;} /* weight: 1-0-0 */
+    p#demo {color: orange;} /* weight: 1-0-1 WINS! */
+    .test {color: green;} /* weight: 0-1-0 */
+    p.test {color: green;} /* weight: 0-1-1 */
+    p {color: red;} /* weight: 0-0-1 */
