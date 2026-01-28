@@ -1,0 +1,22 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: 700;
+    color: red;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-color: aqua;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 9px;
+    text-indent: 45px;
+    text-align: center;
+  
+}
+.fonts {
+    width: 45px;
+    text-overflow: ellipsis;
+    border: 2px solid red;
+    word-break: break-all;
+    overflow: hidden;
+}
