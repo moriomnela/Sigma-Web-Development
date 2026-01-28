@@ -20,3 +20,10 @@ h1 {
     word-break: break-all;
     overflow: hidden;
 }
+h2{
+    color: aqua;
+    color: #fff;
+    color: rgb(red, green, blue);
+    color: rgba(red, green, blue, alpha);
+    color: hsl(130, 61%, 44%)
+}
