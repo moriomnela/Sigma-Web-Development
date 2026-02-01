@@ -1,0 +1,17 @@
+nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    li {
+    list-style: none;
+    padding: 30px;
+    
+    /* list-style-type:"@"; */
+    background-color: yellow;
+    /* list-style-position: inside; */
+    /* list-style-image: url(https://www.vecteezy.com/free-photos/image); */
+    /* list-style: disc inside; */
+    }
+}
+    
+
