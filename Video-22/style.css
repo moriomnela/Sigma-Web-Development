@@ -1,4 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 h1{
     color: red;
     background-color: yellow ;
+    width: 100px;
+    margin-bottom: 5px;
+}
+h2{
+    color: rgb(66, 11, 11);
+    background-color: rgb(146, 146, 78) ;
+    width: 100rem;
+    margin-bottom: 5px;      
+    margin: auto;      
+}
+h3{
+    color: rgb(44, 158, 111);
+    background-color: rgb(104, 87, 202) ;
+    width: 100em;
+    margin-bottom: 5px;
+}
+h4{
+    color: rgb(47, 132, 182);
+    background-color: rgb(182, 53, 139) ;
+    width: 100vw;
+    height: 10vw;
+    margin-bottom: 5px;
+    p{
+        width: 50%;
+        color: yellow;
+        background-color: bisque;
+    }
+}
+p{
+    color: blue;
+    background-color: aqua;
+    border: 1px solid red;
+    width: 100vh;
+    margin-bottom: 5px;
 }
