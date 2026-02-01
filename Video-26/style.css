@@ -1,0 +1,12 @@
+.box{
+    width: 40vh;
+    height: 10vh;
+    border: 2px solid red;
+    overflow: auto;
+    /* overflow: hidden; */
+    /* overflow: auto; */
+    /* overflow-x: hidden;
+    overflow-y: scroll; */
+    white-space: scroll;
+}
+
