@@ -1,0 +1,38 @@
+
+:root {
+    --red:red;
+    --background-color : pink;
+}
+
+.parent {
+    border: 3px solid var( --background-color);
+    padding: 20px;
+   
+}
+.box {
+    width: 80vw;
+    height: 200px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    position: relative;
+  
+  
+}
+.box1 {
+    background-color: var( --background-color);
+   position: sticky;
+    left: 30px;
+    top: 0px;
+    z-index: 1;
+}
+.box2{
+    background-color: aqua;
+}
+.box3{
+    background-color: bisque;
+}
+.box4{
+    background-color: aquamarine;
+}
+
