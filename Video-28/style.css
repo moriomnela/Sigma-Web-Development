@@ -1,0 +1,35 @@
+.parent {
+    border: 3px solid red;
+    padding: 20px;
+   
+}
+.box {
+    width: 80vw;
+    height: 500px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    position: relative;
+  
+  
+}
+.box1 {
+    background-color: blue;
+   position: sticky;
+    left: 30px;
+    top: 0px;
+    z-index: 1;
+}
+.box2{
+    background-color: aqua;
+    position: relative; 
+     left: 30px;
+    top: 30px;
+}
+.box3{
+    background-color: bisque;
+}
+.box4{
+    background-color: aquamarine;
+}
+
