@@ -1,0 +1,22 @@
+
+
+
+body {
+    background-color: red;
+}
+
+.parent {
+   color: white;
+   
+}
+.boxes {
+    display: flex;
+}
+.box {
+    background-color: aqua;
+    width: 344px;
+    height: 344px;
+    margin: 5px;
+}
+
+
