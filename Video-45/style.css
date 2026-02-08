@@ -1,0 +1,19 @@
+.container {
+    width: 38vw;
+    height: 40vh;
+    background-color: gray;
+}
+.box {
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    /* transition-property: transform ;
+    transition-timing-function: ease-in-out;
+    transition-duration: 3s;
+    transition-delay: 4; */
+    transition: all 3s ease-in-out 1s;
+}
+
+.translate {
+    transform: translateX(10vw) translateY(10vh);
+}
