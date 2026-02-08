@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: sticky;
+    top: 0;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.logo img {
+    width: 180px;
+}
+.right ul {
+    display: flex;
+    gap: 35px;
+    cursor: pointer;
+}
+.right ul li {
+    list-style: none;
+
+}
