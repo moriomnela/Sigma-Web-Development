@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: sticky;
+    top: 0;
+     background-color: rgb(187, 23, 219);
+
+}
+ ul {
+    /* list-style: none; */
+}
+ li {
+    color: white;
+    font-size: 20px;
+    padding: 20px; 
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+  }
+.banner {
+    background-color: bisque;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: red;
+}
+
+.blog {
+    background-color: rgb(109, 109, 224);
+    padding: 60px;
+    border-radius: 40px;
+    text-align: center;
+    color: wheat;
+    margin: 20px;
+}
+
+.orange-box {
+    bottom: 40px;
+    right: 50px;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgb(223, 149, 11);
+}
