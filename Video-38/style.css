@@ -3,7 +3,7 @@
     display: flex;
     padding: 20px;
     border: 2px solid red;
-     justify-content: space-around; */
+     /* justify-content: space-around; */
     /* justify-content: flex-end; */
     /* justify-content: center; */
     /* align-items: center; */
@@ -12,7 +12,7 @@
     /* align-content: flex-start; */
     
     /* flex-flow: row-reverse; */
-    /* flex-flow: column;
+    /* flex-flow: column; */
      gap: 20px 10px;
     /* row-gap: 20px; */
     /* column-gap: 10px; */
