@@ -1,0 +1,58 @@
+.container {
+    width: 60vw;
+    height: 70vh;
+    background-color: green;
+    margin: 120px 400px;
+    position: relative;
+}
+.box p {
+    text-align: center;
+}
+.box {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: AnimationX 3s linear infinite ,
+                AnimationY 1s ease-out  infinite alternate;    
+}
+
+@keyframes AnimationX {
+    from{
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes AnimationY {
+    from{
+        bottom: 0;
+    }
+    to {
+        bottom: 100%;
+    }
+}
+
+/* @keyframes nelaAnimation2 {
+    0%{
+        transform: rotate(45deg);
+    }
+    20%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(230deg);
+    }
+    80%{
+        transform: rotate(300deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+} */
