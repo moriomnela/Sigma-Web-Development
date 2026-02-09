@@ -1,0 +1,21 @@
+.container {
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    background: skyblue;
+    border: 9px solid red;
+    background-image: url(img.jpg);
+    background-position: center center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-clip: border-box;
+}
+img {
+    width: 600px;
+    height: 400px;
+    /* object-fit: contain; */
+    /* object-fit: cover; */
+    /* object-position: 10px 13px; */
+    /* object-position: bottom right; */
+    /* object-fit: fill; */
+}

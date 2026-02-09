@@ -1,0 +1,19 @@
+.container {
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    border: 9px solid red;
+    background-position: center center;
+    background-size: cover;
+    background-clip: border-box;
+}
+img {
+    width: 600px;
+    height: 500px;
+    /* filter: blur(10px); */
+    /* filter: brightness(200%); */
+    /* filter: grayscale(100%); */
+    /* filter: sepia(100%); */
+    /* filter: invert(1); */
+    /* filter: opacity(0.1); */
+}
